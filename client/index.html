@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovatX AI | Chat Bot</title>
+  <meta name="description"
+    content="NovatX AI | Chat Bot is a natural language processing (NLP) model that uses deep learning to generate human-like conversations. It is trained on large datasets of conversational data and can be used to generate responses to user input in real-time. NovatX AI | Chat Bot can be used for a variety of applications, such as customer service chatbots, virtual assistants, and automated customer support.    ">
+  <meta name="keywords" content="novatx ai chat bot, chat gpt, ai chat, chatbot, openai, ai, crypto, crypto ai bot, chat ai, NovatX, NovatX AI, NovatXAI, blockchain, ethereum, bitcoin">
+  <meta name="author" content="NovatX AI Team" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="hero">
+      <h1>NovatX AI | Chat Bot - Beta</h1>
+      <div class="col-3">
+        <div class="card">
+          <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+              <path
+                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+            </svg>
+            Examples
+          </h2>
+          <button id="button_data" data-area="Explain quantum computing in simple terms">"Explain quantum computing in simple terms" →</button>
+          <button id="button_data" data-area="Got any creative ideas for a 10 year old’s birthday?">"Got any creative ideas for a 10 year old’s birthday?" →</button>
+          <button id="button_data" data-area="How do I make an HTTP request in Javascript?">"How do I make an HTTP request in Javascript?" →</button>
+        </div>
+        <div class="card">
+          <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+              <path
+                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>
+            Capabilities
+          </h2>
+          <span>Remembers what user said earlier in the conversation</span>
+          <span>Allows user to provide follow-up corrections</span>
+          <span>Trained to decline inappropriate requests</span>
+        </div>
+        <div class="card">
+          <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+              <path
+                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </svg>
+            Limitations
+          </h2>
+          <span>May occasionally generate incorrect information</span>
+          <span>May occasionally produce harmful instructions or biased content</span>
+          <span>Limited knowledge of world and events after 2021</span>
+        </div>
+      </div>
+    </div>
+    <div id="chat_container"></div>
+    <form>
+      <textarea name="prompt" placeholder="Ask NovatX AI | Chat Bot" id="form_fill"></textarea>
+      <button type="submit"><img src="assets/images/send.svg" alt="send"></button>
+    </form>
+	<font size="2"><p style="color:grey"><a href="https://docs.novatx.ai" style="color:grey">NovatX AI | Chat Bot Feb 27 Version</a>. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.</p><br></font>
+  </div>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
